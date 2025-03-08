@@ -60,6 +60,10 @@ func main() {
 		fmt.Print("Неверное максимальное количество одновременных соединений")
 		return
 	}
+	if concurrencyLevel < 0 {
+		fmt.Print("Максимальное количество одновременных соединений не может быть меньше нуля")
+		return
+	}
 
 	listener, err := net.Listen("tcp", fmt.Sprintf("localhost:%d", port))
 	if err != nil {
