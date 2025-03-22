@@ -17,7 +17,6 @@ const (
 )
 
 func sendEmail(to string, subject string, body string) error {
-	// Устанавливаем TLS-соединение
 	tlsConfig := &tls.Config{
 		InsecureSkipVerify: true,
 		ServerName:         "smtp.gmail.com",
