@@ -20,44 +20,61 @@
    файл серверу gaia.cs.umass.edu? Для ответа на вопрос, возможно, проще выбрать http-сообщение
    и рассмотреть информацию TCP-пакета, используемого для передачи этого http-сообщения, 
    в окне деталей заголовка пакета.
-   - <img src="images/task1_img1.png" width=500 />
+
+   <img src="images/task1_img1.png" width=500 />
+
 2. Каков IP-адрес у сервера gaia.cs.umass.edu? Каковы номера портов для отправки и приема
    TCP-сегментов этого соединения?
-   - <img src="images/task1_img2.png" width=500 />
+
+   <img src="images/task1_img2.png" width=500 />
+
 3. Какой порядковый номер у SYN TCP-сегмента, который используется для установления
    TCP-соединения между компьютером клиента и сервером gaia.cs.umass.edu? Как
    определяется, что это именно SYN-сегмент?
-   - <img src="images/task1_img3.png" width=500 />
-   - <img src="images/task1_img4.png" width=500 />
+
+   <img src="images/task1_img3.png" width=500 />
+   <img src="images/task1_img4.png" width=500 />
+
 4. Какой порядковый номер у SYNACK-сегмента, отправленного сервером gaia.cs.umass.edu
    на компьютер клиента в ответ на SYN-сегмент? **0** Какое значение хранится в поле
    подтверждения в SYNACK-сегменте? **1** Как сервер gaia.cs.umass.edu определил это значение? **Количество полученных подряд байт + 1**
    Как определяется, что это именно SYNACK-сегмент? **Флаги Syn и Ack**
-   - <img src="images/task1_img5.png" width=500 />
-   - <img src="images/task1_img6.png" width=500 />
-   - <img src="images/task1_img7.png" width=500 />
+
+   <img src="images/task1_img5.png" width=500 />
+   <img src="images/task1_img6.png" width=500 />
+   <img src="images/task1_img7.png" width=500 />
+
 5. Какой порядковый номер у TCP-сегмента, содержащего команду POST протокола HTTP?
    (для нахождения команды POST вам потребуется проникнуть внутрь поля содержимого
    пакета в нижней части окна Wireshark, чтобы найти сегмент, в поле DATA которого
    хранится значение POST)
-   - - <img src="images/task1_img8.png" width=500 />
+
+   <img src="images/task1_img8.png" width=500 />
+
 6. Рассмотрите TCP-сегмент, содержащий команду POST протокола HTTP, как первый TCP-сегмент 
    соединения. Какие порядковые номера у первых шести сегментов TCP-соединения 
    (включая сегмент, содержащий команду POST протокола HTTP)? **0, 663, 2123, 3583, 5943, 6503** Когда был
    отправлен каждый сегмент? Когда был получен ACK-пакет для каждого сегмента? **некоторые ACK "склеились"**
    Покажите разницу между тем, когда каждый TCP-сегмент был отправлен и когда было
    получено каждое подтверждение, чему равно значение RTT для каждого из 6 сегментов?
-   - <img src="images/task1_img9.png" width=500 />
-   - <img src="images/task1_img10.png" width=500 />
-   - <img src="images/task1_img11.png" width=500 />
+
+   <img src="images/task1_img9.png" width=500 />
+   <img src="images/task1_img10.png" width=500 />
+    <img src="images/task1_img11.png" width=500 />
+
    **1 ACK**
-   - <img src="images/task1_img11.png" width=500 />
+
+   <img src="images/task1_img11.png" width=500 />
+
    **2-3 ACK**
-   - <img src="images/task1_img12.png" width=500 />
+
+   <img src="images/task1_img12.png" width=500 />
+
    **4-6 RTT совпадает с 2-3**
+
 7. Чему равна пропускная способность (количество байтов, передаваемых в единицу
    времени) для этого TCP-соединения? Объясните, как вы получили это значение.
-   - **663 байта / 0.108638 с / 2 = 3051 байт/с = 24 Кбит/с**
+   **663 байта / 0.108638 с = 6102 байт/с = 48 Кбит/с**
 
 ### Работа с Time-Sequence-Graph (Stevens) (2 балла)
 Time-Sequence-Graph (Stevens) (Временная шкала (Стивенса)) – одна из графических утилит
@@ -83,6 +100,7 @@ Time-Sequence-Graph (Stevens) (Статистика => График TCP пото
 серверу gaia.cs.umass.edu. Приложите соответствующий скрин программы Wireshark.
 
 #### Скрин
+
 <img src="images/task2_img1.png" width=700 />
 
 ## Программирование. Эхо-запросы через UDP
@@ -116,7 +134,9 @@ Time-Sequence-Graph (Stevens) (Статистика => График TCP пото
 Сделайте скриншоты, подтверждающие корректную работу вашей программы пингования со стороны клиента.
 
 #### Демонстрация работы
-todo
+
+<img src="images/task4_img1.png" width=300 />
+<img src="images/task4_img2.png" width=400 />
 
 ### В. Вывод в формате ping (2 балла)
 Версия клиента из предыдущей части (Б) вычисляет время оборота для каждого пакета и выводит
