@@ -34,8 +34,10 @@
 Приложите скриншоты, подтверждающие работоспособность программы.
 
 #### Демонстрация работы
--<img src="images/task1_img1.png" width=500 />
--<img src="images/task1_img2.png" width=500 />
+-<img src="images/task1_img1.png" width=400 />
+
+-<img src="images/task1_img2.png" width=400 />
+
 -<img src="images/task1_img3.png" width=300 />
 
 ### Б. Дуплексная передача (2 балла)
@@ -54,8 +56,10 @@ UDP реализует механизм контрольных сумм при �
 «Контрольные суммы»).
 ** Добавим имитацию потери байта **
 
--<img src="images/task1_img4.png" width=500 />
--<img src="images/task1_img5.png" width=500 />
+-<img src="images/task1_img4.png" width=400 />
+
+-<img src="images/task1_img5.png" width=400 />
+
 -<img src="images/task1_img6.png" width=300 />
 
 ## Контрольные суммы (2 балла)
