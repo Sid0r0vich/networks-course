@@ -45,7 +45,7 @@ Windows) или UDP-сегмент (в случае с Unix).
    Каков IP-адрес вашего компьютера? **192.168.196.73**
    - <img src="images/task1_img1.png" width=1000 />
 2. Найдите заголовок IP-пакета. Какое значение указано здесь в поле протокола верхнего уровня? **1**
-   - <img src="images/task1_img2.png" width=800 />
+   - <img src="images/task1_img2.png" width=400 />
 3. Сколько байт в IP-заголовке? **20** Сколько байт приходится на полезную нагрузку IP-дейтаграммы? 56 - 20 = **36**
    - <img src="images/task1_img3.png" width=600 />
 4. Отсортируйте отслеженные пакеты по их исходному IP-адресу; для этого щелкните по
@@ -80,9 +80,9 @@ Windows) или UDP-сегмент (в случае с Unix).
       Если да, то сколько фрагментов было создано? **3**
       - <img src="images/task1_img8.png" width=600 />
    2. Какие поля IP-заголовка изменяются в разных фрагментах? **flags, fragment offset, total length, header checksum
-      - <img src="images/task1_img9.png" width=600 />
-      - <img src="images/task1_img10.png" width=600 />
-      - <img src="images/task1_img11.png" width=600 />
+      - <img src="images/task1_img9.png" width=500 />
+      - <img src="images/task1_img10.png" width=500 />
+      - <img src="images/task1_img11.png" width=500 />
 
 ## Программирование.
 
