@@ -43,7 +43,9 @@ Simulation step 3 of router 42.162.54.248
 ```
 
 #### Демонстрация работы
-todo
+<img src="images/task2img1.png" width=300 />
+<img src="images/task2img2.png" width=700 />
+<img src="images/task2img3.png" width=700 />
 
 ### Задание В (2 балла)
 
@@ -70,7 +72,8 @@ UDP, а также выводит количество потерянных па
 <img src="images/tcp.png" width=700 />
 
 #### Демонстрация работы
-todo
+<img src="images/task1img3.png" width=700 />
+<img src="images/task1img4.png" width=700 />
 
 ### 2. Измерение по протоколу UDP (3 балла)
 Пример интерфейса:
@@ -78,7 +81,8 @@ todo
 <img src="images/udp.png" width=700 />
 
 #### Демонстрация работы
-todo
+<img src="images/task1img1.png" width=700 />
+<img src="images/task1img2.png" width=700 />
    
 
 ## Транслятор портов (6 баллов)
