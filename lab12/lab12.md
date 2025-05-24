@@ -43,7 +43,7 @@ Simulation step 3 of router 42.162.54.248
 ```
 
 #### Демонстрация работы
-<img src="images/task2img1.png" width=500 />
+<img src="images/task2img1.png" width=550 />
 <img src="images/task2img2.png" width=500 />
 <img src="images/task2img3.png" width=500 />
 
